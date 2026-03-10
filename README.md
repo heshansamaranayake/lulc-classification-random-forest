@@ -1,24 +1,27 @@
 # LULC Classification using Random Forest (QGIS)
 
-This repository contains the workflow used for Land Use Land Cover (LULC) classification using the Random Forest algorithm in QGIS.
+Land Use Land Cover (LULC) classification workflow using the Random Forest algorithm implemented in QGIS.
 
-## Study Objective
-Classify land cover types from satellite imagery using supervised machine learning.
+## Study Area
+Colombo, Kandy, Kurunegala, Galle 
+
+## Data
+- Satellite imagery: (Landsat 8 and 9)
+- Training samples created in QGIS
+
+## Method
+1. Image preprocessing
+2. Training sample creation
+3. Random Forest classification
+4. Accuracy assessment
 
 ## Tools
 - QGIS
 - Random Forest classifier
-- Satellite imagery (Lansat 8/9)
 
-## Workflow
-1. Preprocess satellite imagery
-2. Create training samples
-3. Train Random Forest classifier
-4. Generate classified map
-5. Accuracy assessment
-
-## Status
-Work in progress.
+## Output
+- Classified LULC map
+- Accuracy metrics
 
 ## Author
 Heshan Samaranayake  
